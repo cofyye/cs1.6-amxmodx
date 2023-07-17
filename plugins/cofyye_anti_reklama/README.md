@@ -24,7 +24,7 @@ cofyye_antireklama_logger 1
 cofyye_antireklama_prefix "COFYYE_ANTIREKLAMA"
 cofyye_antireklama_nickname "COFYYE ANTI REKLAMA"
 ```
-
+Kada ste ovo dodali, potrebno je sacuvati **amxx.cfg** i nakon toga **restartujete server** ili **promenite mapu** da bi Vam plugin radio! <br />
 Idemo sada korak po korak za objasnjenje svakog od ovih cvarova.<br />
 
 ### COFYYE_ANTIREKLAMA_BLOCKCHANGENAME
