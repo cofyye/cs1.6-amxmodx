@@ -80,4 +80,4 @@ Plugin je free-to-use gde mozete menjati sma i ostale stvari ali ne i menjanje a
 ## **Conclusion**
 Ukoliko imate neku zamerku na plugin, pronadjete neki bug ili slicno, obavezno mi javite da sto pre ispravim. Takodje, ako imate ideju za nadogradnju
 ovog plugina ili ideju za neki novi plugin, obavezno mi pisite na discordu : **cofyye** ili **cofyye#1328** ili mozete na 
-[Instagramu](https:://instagram.com/cofyye)
+[Instagramu](https://instagram.com/cofyye)
