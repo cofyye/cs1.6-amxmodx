@@ -20,7 +20,7 @@ enum Color
 	BLUE, // Blue
 }
 
-new TeamName[][] = 
+new TeamNameColorChat[][] = 
 {
 	"",
 	"TERRORIST",
@@ -71,7 +71,7 @@ ColorChat(id, Color:type, const msg[], {Float,Sql,Result,_}:...)
 		
 	if(ColorChange)
 	{
-		Team_Info(index, MSG_Type, TeamName[team]);
+		Team_Info(index, MSG_Type, TeamNameColorChat[team]);
 	}
 }
 
@@ -113,15 +113,15 @@ ColorSelection(index, type, Color:Type)
 	{
 		case RED:
 		{
-			return Team_Info(index, type, TeamName[1]);
+			return Team_Info(index, type, TeamNameColorChat[1]);
 		}
 		case BLUE:
 		{
-			return Team_Info(index, type, TeamName[2]);
+			return Team_Info(index, type, TeamNameColorChat[2]);
 		}
 		case GREY:
 		{
-			return Team_Info(index, type, TeamName[0]);
+			return Team_Info(index, type, TeamNameColorChat[0]);
 		}
 	}
 
