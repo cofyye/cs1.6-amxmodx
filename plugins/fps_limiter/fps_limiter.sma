@@ -42,10 +42,6 @@ public CheckFps(id) {
 public OnGetFpsMax(id, const cvar[], const value[]) {
 	new Float:convertedValue = floatstr(value);
 	if(convertedValue > get_pcvar_num(pCvar_FpsLimit)) {
-		server_cmd("kick #%d ^"Change fps_max under 150^"", get_user_userid(id));
+		server_cmd("kick #%d ^"Change fps_max under %d^"", get_user_userid(id), get_pcvar_num(pCvar_FpsLimit));
 	}
 }
-
-/* AMXX-Studio Notes - DO NOT MODIFY BELOW HERE
-*{\\ rtf1\\ ansi\\ deff0{\\ fonttbl{\\ f0\\ fnil Tahoma;}}\n\\ viewkind4\\ uc1\\ pard\\ lang1033\\ f0\\ fs16 \n\\ par }
-*/
